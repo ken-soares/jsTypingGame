@@ -1,0 +1,42 @@
+*{
+	font-family:Verdana,Geneva,Tahoma,sans-serif;
+	--bg: #282A36;
+	--fg: #f8f8f2;
+
+}
+
+body{
+	background-color:var(--bg);
+	color:var(--fg);
+}
+
+.text, header{
+	text-align:center;
+}
+
+input{
+	text-align:center;
+	padding-right:5%;
+	margin-right:5%;
+	margin-left:2%;
+	width:13%;
+}
+
+span{
+	margin:3% 10%;
+	display:flex;
+	justify-content:center;
+}
+
+button{
+	appearance:none;
+	border:none;
+	background:none;
+	color:var(--fg);
+}
+
+button:hover{
+	transition:.2s;
+	color:#ff92df;
+}
+

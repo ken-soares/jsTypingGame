@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Js Typing Game</title>
+	<link rel="stylesheet" href="styles.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Typing Game</h1>
+	</header>
+	<div class="text">
+		<p class="word">__</p>
+		<div class="typing">
+			<button class="start"
+			onclick="mainLoop();setInterval(timing,1000)">start</button>
+			<input class="user" type="text" 
+			placeholder="click start to begin">
+		</div>
+		<p class="score"></p>
+		<p class="time"></p>
+	</div>
+	<span>
+		<button onclick="location.reload(false)">restart</button>
+		<button onclick="best()" class="pb">my personnal best</button>
+	</span>
+</body>
+</html>
